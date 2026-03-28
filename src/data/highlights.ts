@@ -9,16 +9,16 @@ export type Highlight = {
 export const highlights: Highlight[] = [
   {
     id: 1,
-    title: "Golaço",
-    description: "O gol mais bonito da temporada",
-    video: "/videos/log.mp4",
-    thumbnail: "#",
+    title: "Leões da Praça VS B.C.L",
+    description: "Jogo Oficial da FutLiga",
+    video: "https://www.youtube.com/watch?v=XTXGUJxFlhU",
+    thumbnail: "../img/leoes_bcl.png",
   },
   {
     id: 2,
     title: "Melhores Momentos",
     description: "Confira os melhores lances do jogo",
-    video: "https://www.youtube.com/watch?v=_KNzZisIjy8",
+    video: "https://www.youtube.com/watch?v=ADd9NRFy-7s",
     thumbnail: "#",
   },
   {
@@ -29,3 +29,8 @@ export const highlights: Highlight[] = [
     thumbnail: "#",
   },
 ]
+
+
+
+
+

@@ -138,12 +138,12 @@ function HighlightCard({
       className="group relative overflow-hidden cursor-pointer border border-white/5 hover:border-yellow-400/20 transition-colors duration-300"
     >
       {/* THUMBNAIL */}
-      <div className="h-44 relative overflow-hidden bg-gradient-to-br from-[#1a0d2e] to-black/90">
+      <div className="h-60 relative overflow-hidden bg-gradient-to-br from-[#1a0d2e] to-black/90">
         {thumbSrc && (
           <img
             src={thumbSrc}
             alt={highlight.title}
-            className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500"
+            className="absolute inset-0 w-full h-full object-contain opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500"
             onError={() => console.error('❌ Thumbnail erro:', thumbSrc)}
           />
         )}
@@ -198,7 +198,7 @@ export default function Highlights() {
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/60" />
         <div className="absolute w-[600px] h-[600px] bg-purple-700/20 blur-[140px] rounded-full top-[-100px] left-1/2 -translate-x-1/2 pointer-events-none" />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6">
+        <div className="relative z-10 max-w-6xl mx-auto px-6">
 
           {/* HEADER */}
           <motion.div
