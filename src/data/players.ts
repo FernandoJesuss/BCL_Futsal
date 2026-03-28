@@ -151,7 +151,7 @@ export const players: Player[] = [
     number: 12,
     position: "Ala",
     rating: 92,
-    flag: "🇧🇷",
+    flag: "/public/img/brasil.png",
     image: "/falcao.png",
     captain: true,
   },
@@ -162,7 +162,7 @@ export const players: Player[] = [
     number: 8,
     position: "Ala",
     rating: 88,
-    flag: "🇧🇷",
+    flag: "/public/img/brasil.png",
     image: "/Logo_do_bcl_futsal.png",
   },
   {
@@ -172,7 +172,7 @@ export const players: Player[] = [
     number: 6,
     position: "Ala",
     rating: 85,
-    flag: "🇧🇷",
+    flag: "/public/img/brasil.png",
     image: "/Logo_do_bcl_futsal.png",
   },
   {
@@ -182,7 +182,7 @@ export const players: Player[] = [
     number: 9,
     position: "Pivô",
     rating: 87,
-    flag: "🇧🇷",
+    flag: "/public/img/brasil.png",
     image: "/njj.png",
   },
   {
@@ -192,7 +192,7 @@ export const players: Player[] = [
     number: 10,
     position: "Pivô",
     rating: 90,
-    flag: "🇧🇷",
+    flag: "/public/img/brasil.png",
     image: "/rng.png",
   },
   {
@@ -202,7 +202,7 @@ export const players: Player[] = [
     number: 9,
     position: "Ata",
     rating: 82,
-    flag: "🇧🇷",
+    flag: "/public/img/brasil.png",
     image: "/Logo_do_bcl_futsal.png",
   },
   {
@@ -212,7 +212,7 @@ export const players: Player[] = [
     number: 9,
     position: "Ata",
     rating: 81,
-    flag: "🇧🇷",
+    flag:"/public/img/brasil.png",
     image: "/Logo_do_bcl_futsal.png",
   },
   {
@@ -222,7 +222,7 @@ export const players: Player[] = [
     number: 9,
     position: "Ata",
     rating: 80,
-    flag: "🇧🇷",
+    flag: "/public/img/brasil.png",
     image: "/Logo_do_bcl_futsal.png",
   },
   {
@@ -232,7 +232,7 @@ export const players: Player[] = [
     number: 9,
     position: "Ata",
     rating: 79,
-    flag: "🇧🇷",
+    flag: "/public/img/brasil.png",
     image: "/Logo_do_bcl_futsal.png",
   },
   {
@@ -242,7 +242,8 @@ export const players: Player[] = [
     number: 10,
     position: "Pivô",
     rating: 91,
-    flag: "🇧🇷",
+    
+    flag: "/public/img/brasil.png",
     image: "/rng.png",
   },
 ]
