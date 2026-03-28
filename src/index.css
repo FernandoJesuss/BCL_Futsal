@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+}
+
+
+/* body {
+  background: radial-gradient(circle at 10% 10%, #4c1d95, transparent),
+              radial-gradient(circle at 90% 0%, #0ea5e9, transparent),
+              #020617;
+} */
+
+.card {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.05);
+}

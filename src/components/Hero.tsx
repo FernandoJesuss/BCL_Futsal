@@ -1,0 +1,224 @@
+// import { motion } from "framer-motion"
+// import logo from "/Logo_do_bcl_futsal.png"
+// import Jogador from "../assets/Jogador.png"
+
+// export default function Hero() {
+//   return (
+//     <section id="Home"
+//       className="pt-24 relative h-screen flex items-center justify-center text-white overflow-hidden bg-[#020617]"
+//       style={{
+//         backgroundImage: `url(${Jogador})`,
+//         backgroundSize: "cover",
+//         backgroundPosition: "center",
+//       }}
+//     >
+//       {/* FUNDO ATMOSFERA */}
+//       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent" />
+
+//       {/* LUZ DE ESTÁDIO */}
+//       <div className="absolute w-[600px] h-[600px] bg-purple-600/20 blur-[120px] left-[-200px] top-[100px]" />
+
+//       {/* WRAPPER deslocado */}
+//       <div className="transform translate-x-[-37%] flex flex-col items-center">
+//         {/* ESCUDO + NOME LADO A LADO */}
+//         <div className="flex items-center gap-6">
+//           <motion.img
+//             src={logo}
+//             alt="BCL Logo"
+//             initial={{ y: 200, scale: 1.4 }}
+//             animate={{ y: -40, scale: 1 }}
+//             transition={{ duration: 1.2, ease: "easeOut" }}
+//             className="w-[120px] md:w-[260px] drop-shadow-[0_0_40px_rgba(168,85,247,0.4)]"
+//           />
+
+//           <motion.h1
+//             initial={{ opacity: 0, x: -40 }}
+//             animate={{ opacity: 1, x: 0 }}
+//             transition={{ duration: 1 }}
+//             className="text-5xl md:text-7xl font-extrabold leading-tight"
+//           >
+//             BCL FUTSAL
+//           </motion.h1>
+//         </div>
+
+//         {/* TEXTO + BOTÕES */}
+//         <motion.div
+//           initial={{ opacity: 0, y: 40 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ delay: 0.5 }}
+//           className="mt-6 text-gray-300 text-lg tracking-wide text-center"
+//         >
+//           <p className="mt-4 text-gray-300 text-lg tracking-wide">
+//             TRADIÇÃO • RAÇA • COMPETITIVIDADE
+//           </p>
+
+//           <div className="mt-8 flex gap-6 justify-center">
+//             <button className="px-6 py-3 bg-purple-600 rounded-md shadow-lg shadow-purple-500/30 hover:bg-purple-500 transition transform hover:scale-105">
+//               Ver Elenco
+//             </button>
+//             <button className="px-6 py-3 border border-white/30 rounded-md hover:bg-white/10 transition transform hover:scale-105">
+//               Próximo Jogo
+//             </button>
+//           </div>
+//         </motion.div>
+//       </div>
+//     </section>
+//   )
+// }
+
+
+
+
+
+import { motion } from "framer-motion"
+import logo from "/Logo_do_bcl_futsal.png"
+import Jogador from "../assets/Jogadorone.png"
+
+const stats = [
+  { num: "25+", label: "Anos de história" },
+  { num: "2", label: "Quadros ativos" },
+  { num: "2000", label: "Fundação" },
+  { num: "SP", label: "São Paulo" },
+]
+
+export default function Hero() {
+  return (
+    <section
+      id="Home"
+      className="relative h-screen flex items-center overflow-hidden bg-[#05060F]"
+      style={{
+        backgroundImage: `url(${Jogador})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center right",
+      }}
+    >
+      {/* OVERLAYS */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/75 to-black/10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+
+      {/* ATMOSPHERIC GLOW */}
+      <div className="absolute w-[700px] h-[700px] bg-yellow-400/5 blur-[140px] left-[-300px] top-0 rounded-full pointer-events-none" />
+      <div className="absolute w-[500px] h-[500px] bg-purple-700/15 blur-[120px] left-[100px] top-[50px] rounded-full pointer-events-none" />
+
+      {/* GRID TEXTURE */}
+      <div
+        className="absolute inset-0 opacity-[0.03] pointer-events-none"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)",
+          backgroundSize: "60px 60px",
+        }}
+      />
+
+      {/* CONTENT — alinhado à esquerda como o seu layout atual */}
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-8 md:px-16">
+        <div className="flex flex-col items-start max-w-2xl">
+
+          {/* SEASON BADGE */}
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="flex items-center gap-3 mb-8"
+          >
+            <motion.span
+              animate={{ scale: [1, 1.4, 1] }}
+              transition={{ duration: 2, repeat: Infinity }}
+              className="block w-2 h-2 rounded-full bg-yellow-400"
+            />
+            <span className="text-xs font-bold tracking-[0.3em] uppercase text-yellow-400/80">
+              Temporada 2026
+            </span>
+          </motion.div>
+
+          {/* LOGO + TITLE */}
+          <div className="flex items-center gap-5 mb-6">
+            <motion.img
+              src={logo}
+              alt="BCL Logo"
+              initial={{ y: 60, scale: 1.3, opacity: 0 }}
+              animate={{ y: 0, scale: 1, opacity: 1 }}
+              transition={{ duration: 1.2, ease: "easeOut" }}
+              className="w-[80px] md:w-[110px] drop-shadow-[0_0_30px_rgba(250,204,21,0.3)]"
+            />
+            <motion.h1
+              initial={{ opacity: 0, x: -30 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="text-[clamp(48px,8vw,100px)] font-black leading-none tracking-tight text-white"
+            >
+              BCL<br />
+              <span className="text-yellow-400">FUTSAL</span>
+            </motion.h1>
+          </div>
+
+          {/* TAGLINE */}
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5 }}
+            className="text-xs font-semibold tracking-[0.4em] uppercase text-white/35 mb-10"
+          >
+            Tradição
+            <span className="text-yellow-400/50 mx-2">•</span>
+            Raça
+            <span className="text-yellow-400/50 mx-2">•</span>
+            Competitividade
+          </motion.p>
+
+          {/* BUTTONS */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.65 }}
+            className="flex gap-4 flex-wrap"
+          >
+            {/* BOTÃO PRIMÁRIO — dourado, sem roxo */}
+            <motion.a
+              href="#elenco"
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.97 }}
+              className="px-7 py-3.5 text-xs font-bold tracking-[0.2em] uppercase bg-yellow-400 text-black inline-block transition-colors hover:bg-white"
+              style={{ clipPath: "polygon(10px 0%, 100% 0%, calc(100% - 10px) 100%, 0% 100%)" }}
+            >
+              Ver Elenco
+            </motion.a>
+
+            {/* BOTÃO SECUNDÁRIO */}
+            <motion.a
+              href="#jogos"
+              whileHover={{ scale: 1.04, borderColor: "rgba(250,204,21,0.5)" }}
+              whileTap={{ scale: 0.97 }}
+              className="px-7 py-3.5 text-xs font-bold tracking-[0.2em] uppercase border border-white/20 text-white/70 hover:text-white inline-block transition-colors duration-200"
+            >
+              Próximo Jogo
+            </motion.a>
+          </motion.div>
+
+        </div>
+      </div>
+
+      {/* STATS STRIP */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.9 }}
+        className="absolute bottom-0 left-0 right-0 z-10 flex border-t border-yellow-400/10 bg-black/55 backdrop-blur-md"
+      >
+        {stats.map((s, i) => (
+          <div
+            key={i}
+            className="flex-1 py-4 px-4 flex flex-col gap-1 border-r border-white/5 last:border-r-0"
+          >
+            <span className="text-xl md:text-2xl font-black text-yellow-400 leading-none">
+              {s.num}
+            </span>
+            <span className="text-[9px] font-semibold tracking-[0.2em] uppercase text-white/25">
+              {s.label}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+    </section>
+  )
+}
