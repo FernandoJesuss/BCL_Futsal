@@ -143,7 +143,7 @@ function HighlightCard({
           <img
             src={thumbSrc}
             alt={highlight.title}
-            className="absolute inset-0 w-full h-full object-contain opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500"
+            className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500"
             onError={() => console.error('❌ Thumbnail erro:', thumbSrc)}
           />
         )}

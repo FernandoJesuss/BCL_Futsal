@@ -159,7 +159,7 @@ export const players: Player[] = [
   },
   {
     id: 2,
-    name: "Mendes",
+    name: "Mend",
     nickname: "O Muro",
     number: 8,
     position: "Ala",
@@ -167,7 +167,7 @@ export const players: Player[] = [
     flag: "/public/img/brasil.png",
     countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
-    captain:true,
+    captain:false,
   },
   {
     id: 3,
@@ -179,7 +179,7 @@ export const players: Player[] = [
     flag: "/public/img/brasil.png",
     countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
-    captain:true,
+    captain:false,
   },
   {
     id: 4,
@@ -191,19 +191,19 @@ export const players: Player[] = [
     flag: "/public/img/brasil.png",
     countryCode: "bra", 
     image: "/njj.png",
-    captain:true,
+    captain:false,
   },
   {
     id: 5,
-    name: "Ronaldinho",
+    name: "Manoel Tobias",
     nickname: "O Mágico",
-    number: 10,
-    position: "Pivô",
+    number: 5,
+    position: "Fixo",
     rating: 90,
     flag: "/public/img/brasil.png",
     countryCode: "bra", 
-    image: "/rng.png",
-    captain:true,
+    image: "/public/img/tobias.png",
+    captain:false,
   },
   {
     id: 6,
@@ -215,7 +215,7 @@ export const players: Player[] = [
     flag: "/public/img/brasil.png",
     countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
-    captain:true,
+    captain:false,
   },
   {
     id: 7,
@@ -227,7 +227,7 @@ export const players: Player[] = [
     flag:"/public/img/brasil.png",
     countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
-    captain:true,
+    captain:false,
   },
   {
     id: 8,
@@ -239,7 +239,7 @@ export const players: Player[] = [
     flag: "/public/img/brasil.png",
     countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
-    captain:true,
+    captain:false,
   },
   {
     id: 9,
@@ -251,7 +251,7 @@ export const players: Player[] = [
     flag: "/public/img/brasil.png",
     countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
-    captain:true,
+    captain:false,
   },
   {
     id: 10,
@@ -263,6 +263,6 @@ export const players: Player[] = [
     flag: "/public/img/brasil.png",
     countryCode: "bra", 
     image: "/rng.png",
-    captain:true,
+    captain:false,
   },
 ]

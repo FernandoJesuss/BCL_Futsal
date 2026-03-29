@@ -7,6 +7,7 @@ import Destaques from "../components/Destaques"
 import Footer from "../components/Footer"
 import Contact from "../components/Contact"
 import About from "../components/About"
+import Trofeus from "../components/Trofeus"
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Match />
       <About />
       <Destaques />
+      <Trofeus />
       <Contact />
       <Footer />
     </motion.div>

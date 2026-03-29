@@ -7,6 +7,7 @@ const menuItems = [
   { label: "Jogos", href: "#jogos" },
    { label: "Sobre", href: "#About" },
   { label: "Destaques", href: "#Destaques" },
+  { label: "Troféus", href: "#Trofeus" },
   { label: "Contato", href: "#Contact" },
   
 ]
@@ -44,7 +45,7 @@ export default function Header() {
           </a>
 
           {/* DESKTOP MENU */}
-          <nav className="hidden md:flex items-center gap-1">
+          <nav className="hidden md:flex items-center gap-1 ml-[-220px]">
             {menuItems.map((item) => (
               <a
                 key={item.label}

@@ -18,15 +18,15 @@ export const highlights: Highlight[] = [
     id: 2,
     title: "Melhores Momentos",
     description: "Confira os melhores lances do jogo",
-    video: "https://www.youtube.com/watch?v=ADd9NRFy-7s",
-    thumbnail: "#",
+    video: "/public/videos/mnm.mp4",
+    thumbnail: "",
   },
   {
     id: 3,
-    title: "Craque do Jogo",
+    title: "Em Breve!",
     description: "Veja os dribles e gols do craque",
     video: "/videos/craque.mp4",
-    thumbnail: "#",
+    thumbnail: "../img/nvd.png",
   },
 ]
 

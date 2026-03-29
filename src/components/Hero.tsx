@@ -72,7 +72,7 @@
 
 import { motion } from "framer-motion"
 import logo from "/Logo_do_bcl_futsal.png"
-import Jogador from "../assets/Jogadorone.png"
+import Jogador from "../assets/Jogador_s_escudo.png"
 
 const stats = [
   { num: "25+", label: "Anos de história" },

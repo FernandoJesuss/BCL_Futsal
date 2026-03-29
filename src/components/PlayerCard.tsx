@@ -526,6 +526,36 @@ export default function PlayerCard({ player, rotation = 0 }: Props) {
         className="relative overflow-hidden bg-gradient-to-b from-[#111827] via-[#0d1020] to-[#07080F]"
         style={{ clipPath: octClip }}
       >
+
+
+  {/* NÚMERO WATERMARK */}
+         <div className="absolute top-2 right-3 text-[72px] font-black leading-none text-white/5 group-hover:text-yellow-400/8 transition-colors duration-300 select-none pointer-events-none z-10">
+           {player.number}
+        </div>
+
+
+       {/* NÚMERO BADGE */}
+<div className="absolute top-3 left-3 z-30">
+  <span
+    className="flex items-center justify-center w-10 h-10 rounded-full 
+               bg-gradient-to-br from-indigo-800 to-grey-700 
+               text-white font-extrabold text-lg shadow-lg"
+  >
+    {player.number}
+  </span>
+</div>
+
+         {/* CAPTAIN */}
+         {player.captain && (
+           <div className="absolute top-3 right-3 z-30">
+             <span className="inline-block bg-yellow-400 text-black text-[9px] font-black tracking-[0.2em] uppercase px-2 py-0.5">
+               ★ CAP
+             </span>
+           </div>
+         )}
+
+
+
         {/* IMAGEM DO JOGADOR */}
         <div className="relative h-60 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-t from-[#07080F] via-transparent to-transparent z-20" />
