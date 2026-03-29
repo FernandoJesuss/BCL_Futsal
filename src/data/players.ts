@@ -139,6 +139,7 @@ export type Player = {
   position: string
   rating: number
   flag: string
+  countryCode: string   
   image: string
   captain?: boolean
 }
@@ -152,6 +153,7 @@ export const players: Player[] = [
     position: "Ala",
     rating: 92,
     flag: "/public/img/brasil.png",
+    countryCode: "bra", 
     image: "/falcao.png",
     captain: true,
   },
@@ -163,7 +165,9 @@ export const players: Player[] = [
     position: "Ala",
     rating: 88,
     flag: "/public/img/brasil.png",
+    countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
+    captain:true,
   },
   {
     id: 3,
@@ -173,7 +177,9 @@ export const players: Player[] = [
     position: "Ala",
     rating: 85,
     flag: "/public/img/brasil.png",
+    countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
+    captain:true,
   },
   {
     id: 4,
@@ -183,7 +189,9 @@ export const players: Player[] = [
     position: "Pivô",
     rating: 87,
     flag: "/public/img/brasil.png",
+    countryCode: "bra", 
     image: "/njj.png",
+    captain:true,
   },
   {
     id: 5,
@@ -193,7 +201,9 @@ export const players: Player[] = [
     position: "Pivô",
     rating: 90,
     flag: "/public/img/brasil.png",
+    countryCode: "bra", 
     image: "/rng.png",
+    captain:true,
   },
   {
     id: 6,
@@ -203,7 +213,9 @@ export const players: Player[] = [
     position: "Ata",
     rating: 82,
     flag: "/public/img/brasil.png",
+    countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
+    captain:true,
   },
   {
     id: 7,
@@ -213,7 +225,9 @@ export const players: Player[] = [
     position: "Ata",
     rating: 81,
     flag:"/public/img/brasil.png",
+    countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
+    captain:true,
   },
   {
     id: 8,
@@ -223,7 +237,9 @@ export const players: Player[] = [
     position: "Ata",
     rating: 80,
     flag: "/public/img/brasil.png",
+    countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
+    captain:true,
   },
   {
     id: 9,
@@ -233,7 +249,9 @@ export const players: Player[] = [
     position: "Ata",
     rating: 79,
     flag: "/public/img/brasil.png",
+    countryCode: "bra", 
     image: "/Logo_do_bcl_futsal.png",
+    captain:true,
   },
   {
     id: 10,
@@ -241,9 +259,10 @@ export const players: Player[] = [
     nickname: "O Fenômeno",
     number: 10,
     position: "Pivô",
-    rating: 91,
-    
+    rating: 91,    
     flag: "/public/img/brasil.png",
+    countryCode: "bra", 
     image: "/rng.png",
+    captain:true,
   },
 ]
