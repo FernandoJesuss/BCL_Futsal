@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { useState } from "react"
 import { highlights, type Highlight } from "../data/highlights"
-import quadra from "../assets/fundo_quadra.png"
+import quadra from "../assets/fundochuteira.webp"
 
 
 

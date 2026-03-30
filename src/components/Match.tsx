@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { useEffect, useState } from "react"
-import logo from "/img/Logo_do_bcl_futsal.png"
+import logo from "../assets/Logo_do_bcl_futsal.webp"
 import { nextMatch } from "../data/matchData"
 
 function useCountdown(targetDate: string) {
