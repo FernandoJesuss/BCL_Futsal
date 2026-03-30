@@ -18,7 +18,7 @@ export const highlights: Highlight[] = [
     id: 2,
     title: "Melhores Momentos",
     description: "Confira os melhores lances do jogo",
-    video: "/public/videos/mnm.mp4",
+    video: "/videos/mnm.mp4",
     thumbnail: "../img/nvd.png",
   },
   {
