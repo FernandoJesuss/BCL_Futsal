@@ -150,11 +150,11 @@ export const players: Player[] = [
     name: "Falcão",
     nickname: "O Artilheiro",
     number: 12,
-    position: "Ala",
+    position: "Goleiro",
     rating: 92,
     flag: "/img/brasil.png",
     countryCode: "bra", 
-    image: "/img/fifa.png",
+    image: "/img/fifaone.png",
     captain: true,
   },
   {
@@ -166,7 +166,7 @@ export const players: Player[] = [
     rating: 88,
     flag: "/img/brasil.png",
     countryCode: "bra", 
-    image: "/img/fifa.png",
+     image: "/img/fifaone.png",
     captain:false,
   },
   {
@@ -178,7 +178,7 @@ export const players: Player[] = [
     rating: 85,
     flag: "/img/brasil.png",
     countryCode: "bra", 
-    image: "/img/fifa.png",
+    image: "/img/fifaone.png",
     captain:false,
   },
   {
@@ -190,7 +190,7 @@ export const players: Player[] = [
     rating: 87,
     flag: "/img/brasil.png",
     countryCode: "bra", 
-    image: "/img/fifa.png",
+    image: "/img/fifaone.png",
     captain:false,
   },
   {
@@ -202,7 +202,7 @@ export const players: Player[] = [
     rating: 90,
     flag: "/img/brasil.png",
     countryCode: "bra", 
-    image: "/img/fifa.png",
+    image: "/img/fifaone.png",
     captain:false,
   },
   {
@@ -214,7 +214,7 @@ export const players: Player[] = [
     rating: 82,
     flag: "/img/brasil.png",
     countryCode: "bra", 
-    image: "/img/fifa.png",
+    image: "/img/fifaone.png",
     captain:false,
   },
   {
@@ -226,7 +226,7 @@ export const players: Player[] = [
     rating: 81,
     flag:"/img/brasil.png",
     countryCode: "bra", 
-    image: "/img/fifa.png",
+     image: "/img/fifaone.png",
     captain:false,
   },
   {
@@ -238,7 +238,7 @@ export const players: Player[] = [
     rating: 80,
     flag: "/img/brasil.png",
     countryCode: "bra", 
-    image: "/img/fifa.png",
+     image: "/img/fifaone.png",
     captain:false,
   },
   {
@@ -250,7 +250,7 @@ export const players: Player[] = [
     rating: 79,
     flag: "/img/brasil.png",
     countryCode: "bra", 
-    image: "/img/fifa.png",
+     image: "/img/fifaone.png",
     captain:false,
   },
   {
@@ -262,7 +262,7 @@ export const players: Player[] = [
     rating: 91,    
     flag: "/img/brasil.png",
     countryCode: "bra", 
-   image: "/img/fifa.png",
+    image: "/img/fifaone.png",
     captain:false,
   },
 ]
