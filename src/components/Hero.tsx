@@ -134,7 +134,7 @@ export default function Hero() {
         {stats.map((s, i) => (
           <div
             key={i}
-            className="flex-1 py-6 px-6 flex flex-col gap-2 border-r border-white/5 last:border-r-0 group hover:bg-yellow-400/5 transition-colors duration-300"
+            className="flex-1 py-6 px-4 flex flex-col gap-2 border-r border-white/5 last:border-r-0 group hover:bg-yellow-400/5 transition-colors duration-300"
           >
             <span className="text-3xl md:text-4xl font-black text-yellow-400 leading-none"
               style={{ textShadow: "0 0 20px rgba(250,204,21,0.4)" }}
