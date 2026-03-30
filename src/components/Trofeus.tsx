@@ -191,19 +191,19 @@ const trophies = [
     id: 1,
     name: "Copa dos Campeões FutLiga",
     years: ["2022", "2023"],
-    image: "/public/img/cp.webp",
+    image: "/img/cp.webp",
   },
   {
     id: 2,
     name: "Copa Regional",
     years: ["2021", "2024"],
-    image: "/public/img/cp.webp",
+    image: "/img/cp.webp",
   },
   {
     id: 3,
     name: "Liga Municipal",
     years: ["2020", "2021", "2023"],
-    image: "/public/img/cp.webp",
+    image: "/img/cp.webp",
   },
   // {
   //   id: 4,
