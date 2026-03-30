@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import logo from "/Logo_do_bcl_futsal.png"
+import logo from "/img/Logo_do_bcl_futsal.png"
 
 type LinkItem = {
   label: string
@@ -13,6 +13,7 @@ const links: Record<string, LinkItem[]> = {
     { label: "Elenco",    href: "#elenco" },
     { label: "Jogos",     href: "#jogos" },
     { label: "Sobre",     href: "#About" },
+    { label: "Trofeus", href: "#Trofeus" },
     { label: "Destaques", href: "#Destaques" },
   ],
   Competições: [
