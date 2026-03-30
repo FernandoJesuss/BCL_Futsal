@@ -38,7 +38,7 @@ export default function Hero() {
         }}
       />
 
-      {/* CONTENT — alinhado à esquerda como o seu layout atual */}
+      {/* CONTENT */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-8 md:px-16">
         <div className="flex flex-col items-start max-w-2xl">
 
@@ -101,7 +101,6 @@ export default function Hero() {
             transition={{ delay: 0.65 }}
             className="flex gap-4 flex-wrap"
           >
-            {/* BOTÃO PRIMÁRIO — dourado, sem roxo */}
             <motion.a
               href="#elenco"
               whileHover={{ scale: 1.04 }}
@@ -112,7 +111,6 @@ export default function Hero() {
               Ver Elenco
             </motion.a>
 
-            {/* BOTÃO SECUNDÁRIO */}
             <motion.a
               href="#jogos"
               whileHover={{ scale: 1.04, borderColor: "rgba(250,204,21,0.5)" }}
@@ -126,22 +124,24 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* STATS STRIP */}
+      {/* STATS STRIP — maior e mais visível */}
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.9 }}
-        className="absolute bottom-0 left-0 right-0 z-10 flex border-t border-yellow-400/10 bg-black/55 backdrop-blur-md"
+        className="absolute bottom-0 left-0 right-0 z-10 flex border-t border-yellow-400/15 bg-black/70 backdrop-blur-lg"
       >
         {stats.map((s, i) => (
           <div
             key={i}
-            className="flex-1 py-4 px-4 flex flex-col gap-1 border-r border-white/5 last:border-r-0"
+            className="flex-1 py-6 px-6 flex flex-col gap-2 border-r border-white/5 last:border-r-0 group hover:bg-yellow-400/5 transition-colors duration-300"
           >
-            <span className="text-xl md:text-2xl font-black text-yellow-400 leading-none">
+            <span className="text-3xl md:text-4xl font-black text-yellow-400 leading-none"
+              style={{ textShadow: "0 0 20px rgba(250,204,21,0.4)" }}
+            >
               {s.num}
             </span>
-            <span className="text-[9px] font-semibold tracking-[0.2em] uppercase text-white/25">
+            <span className="text-[10px] md:text-[11px] font-bold tracking-[0.2em] uppercase text-white/40 group-hover:text-white/60 transition-colors duration-300">
               {s.label}
             </span>
           </div>
