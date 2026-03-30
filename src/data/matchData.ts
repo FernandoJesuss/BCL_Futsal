@@ -15,7 +15,7 @@ export const nextMatch = {
   away: {
     name: "Rival City",
     initials: "RC",
-    logo: "/src/assets/rival.webp",
+    logo: "/img/rival.webp",
 
   },
 }

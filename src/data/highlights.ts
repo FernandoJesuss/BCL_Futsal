@@ -12,21 +12,21 @@ export const highlights: Highlight[] = [
     title: "Leões da Praça VS B.C.L",
     description: "Jogo Oficial da FutLiga",
     video: "https://www.youtube.com/watch?v=XTXGUJxFlhU",
-     thumbnail: "/src/assets/leoes_bcl.webp",
+     thumbnail: "/img/leoes_bcl.webp",
   },
   {
     id: 2,
     title: "Melhores Momentos",
     description: "Confira os melhores lances do jogo",
-    video: "/src/videos/mnm.mp4",
-    thumbnail: "/src/assets/nvd.webp",
+    video: "/videos/mnm.mp4",
+    thumbnail: "/img/nvd.webp",
   },
   {
     id: 3,
     title: "Em Breve!",
     description: "Veja os dribles e gols do craque",
-    video: "/src/videos/craque.mp4",
-    thumbnail: "/src/assets/nvd.webp",
+    video: "/videos/craque.mp4",
+    thumbnail: "/img/nvd.webp",
   },
 ]
 
