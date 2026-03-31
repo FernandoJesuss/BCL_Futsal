@@ -171,7 +171,7 @@ export default function PlayerModal({ player, onClose }: Props) {
                     {/* LOGO BCL */}
                     <div className="absolute top-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 z-10">
                       <div className="w-12 h-12 opacity-60">
-                        <img src="/src/assets/Logo_do_bcl_futsal.webp" alt="BCL" className="w-full h-full object-contain" />
+                        <img src="/img/Logo_do_bcl_futsal.webp" alt="BCL" className="w-full h-full object-contain" />
                       </div>
                       <p className="text-[9px] font-black tracking-[0.3em] uppercase text-white/30">BCL Futsal</p>
                       <div className="flex gap-0.5 mt-0.5">
