@@ -1,8 +1,16 @@
+// export type PlayerStats = {
+//   gols: number
+//   assistencias: number
+//   jogos: number
+//   cartoes: number
+// }
+
 export type PlayerStats = {
   gols: number
   assistencias: number
   jogos: number
-  cartoes: number
+  cartoesAmarelos: number
+  cartoesVermelhos: number
 }
 
 export type Player = {
@@ -33,7 +41,7 @@ export const players: Player[] = [
     image: "/img/jogador_card.webp",
     captain: true,
     destaqueSemana: false,
-    stats: { gols: 24, assistencias: 12, jogos: 30, cartoes: 1 },
+    stats: { gols: 24, assistencias: 12, jogos: 30, cartoesAmarelos: 1, cartoesVermelhos: 0 },
   },
   {
     id: 2,
@@ -45,7 +53,7 @@ export const players: Player[] = [
     flag: "/img/brasil_one.webp",
     countryCode: "BRA",
       image: "/img/jogador_card.webp",
-    stats: { gols: 8, assistencias: 15, jogos: 28, cartoes: 3 },
+    stats: { gols: 8, assistencias: 15, jogos: 28, cartoesAmarelos: 3,  cartoesVermelhos: 0   },
   },
   {
     id: 3,
@@ -57,7 +65,7 @@ export const players: Player[] = [
     flag: "/img/brasil_one.webp",
     countryCode: "BRA",
       image: "/img/jogador_card.webp",
-    stats: { gols: 11, assistencias: 9, jogos: 25, cartoes: 2 },
+    stats: { gols: 11, assistencias: 9, jogos: 25, cartoesAmarelos: 2,  cartoesVermelhos: 0  },
   },
   {
     id: 4,
@@ -69,7 +77,7 @@ export const players: Player[] = [
     flag: "/img/brasil_one.webp",
     countryCode: "BRA",
      image: "/img/jogador_card.webp",
-    stats: { gols: 18, assistencias: 20, jogos: 29, cartoes: 4 },
+    stats: { gols: 18, assistencias: 20, jogos: 29, cartoesAmarelos: 4,  cartoesVermelhos: 0  },
   },
   {
     id: 5,
@@ -81,7 +89,7 @@ export const players: Player[] = [
     flag: "/img/brasil_one.webp",
     countryCode: "BRA",
      image: "/img/jogador_card.webp",
-    stats: { gols: 6, assistencias: 22, jogos: 30, cartoes: 1 },
+    stats: { gols: 6, assistencias: 22, jogos: 30, cartoesAmarelos: 1,  cartoesVermelhos: 0  },
   },
   {
     id: 6,
@@ -92,7 +100,7 @@ export const players: Player[] = [
     flag: "/img/brasil_one.webp",
     countryCode: "BRA",
      image: "/img/jogador_card.webp",
-    stats: { gols: 5, assistencias: 4, jogos: 20, cartoes: 2 },
+    stats: { gols: 5, assistencias: 4, jogos: 20, cartoesAmarelos: 2,  cartoesVermelhos: 0  },
   },
   {
     id: 7,
@@ -103,7 +111,7 @@ export const players: Player[] = [
     flag: "/img/brasil_one.webp",
     countryCode: "BRA",
       image: "/img/jogador_card.webp",
-    stats: { gols: 4, assistencias: 3, jogos: 18, cartoes: 1 },
+    stats: { gols: 4, assistencias: 3, jogos: 18, cartoesAmarelos: 1,  cartoesVermelhos: 0  },
   },
   {
     id: 8,
@@ -114,7 +122,7 @@ export const players: Player[] = [
     flag: "/img/brasil_one.webp",
     countryCode: "BRA",
      image: "/img/jogador_card.webp",
-    stats: { gols: 3, assistencias: 5, jogos: 22, cartoes: 0 },
+    stats: { gols: 3, assistencias: 5, jogos: 22, cartoesAmarelos: 0,  cartoesVermelhos: 0  },
   },
   {
     id: 9,
@@ -125,7 +133,7 @@ export const players: Player[] = [
     flag: "/img/brasil_one.webp",
     countryCode: "BRA",
       image: "/img/jogador_card.webp",
-    stats: { gols: 2, assistencias: 2, jogos: 15, cartoes: 1 },
+    stats: { gols: 2, assistencias: 2, jogos: 15, cartoesAmarelos: 1,  cartoesVermelhos: 0  },
   },
   {
     id: 10,
@@ -137,6 +145,6 @@ export const players: Player[] = [
     flag: "/img/brasil_one.webp",
     countryCode: "BRA",
       image: "/img/jogador_card.webp",
-    stats: { gols: 20, assistencias: 18, jogos: 30, cartoes: 2 },
+    stats: { gols: 20, assistencias: 18, jogos: 30, cartoesAmarelos: 2,  cartoesVermelhos: 0  },
   },
 ]
