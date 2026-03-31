@@ -121,7 +121,7 @@ export default function PlayerModal({ player, onClose }: Props) {
 
                       {/* ATRIBUTOS */}
                       <p className="text-[9px] font-bold tracking-[0.3em] uppercase text-white/20 mb-4">
-                        Tradição Além das Tábuas
+                        Tradição Além das Quadras
                       </p>
 
                       {[
