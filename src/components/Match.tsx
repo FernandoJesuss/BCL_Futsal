@@ -82,7 +82,7 @@ export default function Match() {
                   <img
                     src={logo}
                     alt="BCL Futsal"
-                    className="relative w-20 md:w-28 drop-shadow-[0_0_24px_rgba(250,204,21,0.3)]"
+                    className="relative w-20 md:w-48 drop-shadow-[0_0_24px_rgba(250,204,21,0.3)]"
                   />
                 </div>
                 <div className="text-center">
@@ -122,7 +122,7 @@ export default function Match() {
                     <img
                       src={away.logo}
                       alt={away.name}
-                      className="relative w-20 md:w-28 object-contain drop-shadow-[0_0_16px_rgba(255,255,255,0.1)]"
+                      className="relative w-20 md:w-40 object-contain drop-shadow-[0_0_16px_rgba(255,255,255,0.1)]"
                     />
                   </div>
                 ) : (

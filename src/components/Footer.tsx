@@ -13,7 +13,7 @@ const links: Record<string, LinkItem[]> = {
     { label: "Elenco",    href: "#elenco" },
     { label: "Jogos",     href: "#jogos" },
     { label: "Sobre",     href: "#About" },
-    { label: "Trofeus", href: "#Trofeus" },
+    { label: "Troféus", href: "#Trofeus" },
     { label: "Destaques", href: "#Destaques" },
   ],
   Competições: [
