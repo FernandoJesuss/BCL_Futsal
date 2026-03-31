@@ -153,10 +153,10 @@ export default function PlayerModal({ player, onClose }: Props) {
                   </div>
 
                   {/* CENTER — imagem do jogador */}
-                  <div className="relative flex items-end justify-center overflow-hidden">
+                  <div className="relative flex items-end justify-center overflow-hidden ">
                     {/* GLOW BEHIND PLAYER */}
                     <div
-                      className="absolute inset-0"
+                      className="absolute inset-0 " 
                       style={{
                         background: `radial-gradient(ellipse at 50% 60%, ${color}22 0%, transparent 70%)`,
                       }}
@@ -169,7 +169,7 @@ export default function PlayerModal({ player, onClose }: Props) {
                     />
 
                     {/* LOGO BCL */}
-                    <div className="absolute top-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 z-10">
+                    {/* <div className="absolute top-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 z-10">
                       <div className="w-12 h-12 opacity-60">
                         <img src="/img/Logo_do_bcl_futsal.webp" alt="BCL" className="w-full h-full object-contain" />
                       </div>
@@ -179,7 +179,7 @@ export default function PlayerModal({ player, onClose }: Props) {
                           <span key={i} className="text-yellow-400 text-[8px]">★</span>
                         ))}
                       </div>
-                    </div>
+                    </div> */}
 
                     {/* NÚMERO NO FUNDO */}
                     <div
@@ -196,7 +196,7 @@ export default function PlayerModal({ player, onClose }: Props) {
                     <img
                       src={player.image}
                       alt={player.name}
-                      className="relative z-10 h-80 w-auto object-contain object-bottom"
+                      className="relative z-10  w-full h-auto object-contain object-bottom"
                       style={{ filter: "brightness(1.1) contrast(1.05)" }}
                     />
 
@@ -209,8 +209,19 @@ export default function PlayerModal({ player, onClose }: Props) {
                   </div>
 
                   {/* RIGHT — stats */}
-                  <div className="flex flex-col justify-between p-8 border-l border-white/5">
+                  <div className="relative flex flex-col justify-between p-8 border-l border-white/5">
 
+{/* ESCUDO NO FUNDO */}
+<div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-70 z-0 flex flex-col items-center">
+  <img
+    src="/img/Logo_do_bcl_futsal.webp"   
+    alt="Escudo"
+    className="w-48 h-48 object-contain"
+  />
+  <p className="mt-2 text-white text-center font-bold">
+    B.C.L Futsal
+  </p>
+</div>
                     {/* STATS GRID */}
                     <div className="space-y-4">
                       {player.stats && (
