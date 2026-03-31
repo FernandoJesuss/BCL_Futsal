@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion"
 import type { Player } from "../data/players"
 
+
 type Props = {
   player: Player | null
   onClose: () => void
