@@ -22,22 +22,14 @@ export default function PlayerInfo({ player, color }: { player: Player, color: s
           </p>
         )}
 
-        {/* Tabs de posição */}
-        <div className="flex gap-3 mb-8">
-          {["Ala", "Posição", "Gol"].map((tab, i) => (
-            <span
-              key={tab}
-              className={`text-[10px] font-bold uppercase px-3 py-1.5 border cursor-pointer ${
-                i === 0
-                  ? "border-yellow-400/40 text-yellow-400 bg-yellow-400/10"
-                  : "border-white/10 text-white/30 hover:border-white/20"
-              }`}
-              style={{ letterSpacing: "0.15em", fontFamily: "'Barlow Condensed', sans-serif" }}
-            >
-              {i === 0 ? player.position : tab}
-            </span>
-          ))}
-        </div>
+        {/* Posição destacada */}
+
+        <p
+          className="text-xs font-extrabold uppercase mb-6"
+          style={{ letterSpacing: "0.15em", color: `${color}`, fontFamily: "'Oswald', sans-serif" }}
+        >
+          Posição: {player.position}
+        </p>
 
         {/* Atributos extras */}
         <p

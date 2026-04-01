@@ -1,9 +1,3 @@
-// export type PlayerStats = {
-//   gols: number
-//   assistencias: number
-//   jogos: number
-//   cartoes: number
-// }
 
 export type PlayerStats = {
   gols: number
@@ -94,6 +88,7 @@ export const players: Player[] = [
   {
     id: 6,
     name: "Jogador 6",
+    nickname: "O Mágico",
     number: 6,
     position: "Ata",
     rating: 82,
@@ -105,6 +100,7 @@ export const players: Player[] = [
   {
     id: 7,
     name: "Jogador 7",
+    nickname: "O Mágico",
     number: 7,
     position: "Ata",
     rating: 81,
@@ -116,6 +112,7 @@ export const players: Player[] = [
   {
     id: 8,
     name: "Jogador 8",
+    nickname: "O Mágico",
     number: 8,
     position: "Ata",
     rating: 80,
@@ -127,6 +124,7 @@ export const players: Player[] = [
   {
     id: 9,
     name: "Jogador 9",
+    nickname: "O Mágico",
     number: 9,
     position: "Ata",
     rating: 79,
