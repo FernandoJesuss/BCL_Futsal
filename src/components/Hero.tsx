@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import logo from "../assets/Logo_do_bcl_futsal.webp"
+import logo from "../assets/logo_da_bcl_futsal.webp"
 import Jogador from "../assets/fundo_quadra.webp"
 
 const stats = [
@@ -60,14 +60,14 @@ export default function Hero() {
           </motion.div>
 
           {/* LOGO + TITLE */}
-          <div className="flex items-center gap-5 mb-6">
+          <div className=" flex items-center gap-5 mb-6">
             <motion.img
               src={logo}
               alt="BCL Logo"
               initial={{ y: 60, scale: 1.3, opacity: 0 }}
               animate={{ y: 0, scale: 1, opacity: 1 }}
               transition={{ duration: 1.2, ease: "easeOut" }}
-              className="w-[80px] md:w-[110px] drop-shadow-[0_0_30px_rgba(250,204,21,0.3)]"
+              className="w-[80px] md:w-[150px] drop-shadow-[0_0_30px_rgba(250,204,21,0.3)]"
             />
             <motion.h1
               initial={{ opacity: 0, x: -30 }}

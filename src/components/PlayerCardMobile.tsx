@@ -39,7 +39,7 @@ export default function PlayerCardMobile({ player, color }: { player: Player, co
         <div className="px-5 py-4">
           <PlayerStats stats={player.stats} rating={player.rating} color={color} />
           <div className="flex flex-col items-center pt-3 border-t border-white/5">
-            <img src="/img/Logo_do_bcl_futsal.webp" alt="Escudo BCL" className="w-14 h-14 object-contain opacity-70" />
+            <img src="/img/logo_da_bcl_futsal.webp" alt="Escudo BCL" className="w-14 h-14 object-contain opacity-70" />
             <p
               className="mt-1 text-white/40 text-xs font-bold"
               style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.1em" }}

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import logo from "../assets/Logo_do_bcl_futsal.webp"
+import logo from "../assets/logo_da_bcl_futsal.webp"
 
 type LinkItem = {
   label: string
