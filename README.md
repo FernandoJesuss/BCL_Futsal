@@ -1,6 +1,8 @@
 <div align="center">
 
-# ⚽ BCL Futsal
+
+ <img src="https://github.com/FernandoJesuss/BCL_Futsal/blob/main/src/assets/logo_da_bcl_futsa_one.png" width="150" />
+
 
 ### Plataforma digital desenvolvida para um time de futsal
 
@@ -11,6 +13,8 @@ Aplicação web focada em **presença digital, identidade visual e experiência 
 **[🌐 Ver Projeto](https://bclfutsal.netlify.app/)**
 
 </div>
+
+
 
 ---
 
