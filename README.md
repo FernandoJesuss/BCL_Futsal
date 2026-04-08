@@ -21,15 +21,17 @@ Aplicação web focada em **presença digital, identidade visual e experiência 
 <img src="https://github.com/FernandoJesuss/BCL_Futsal/blob/main/src/assets/bcl_futsal.png" width="900"/>
 
 </div>
+
 ---
 
 ### 📱 Versão Mobile
 
 <div align="center">
 
-<img src="./src/assets/portfolio-mobile.png" width="300"/>
+<img src="https://github.com/FernandoJesuss/BCL_Futsal/blob/main/src/assets/bcl_mobile.webp" width="300"/>
 
 </div>
+
 ---
 
 ## 🚀 Sobre o Projeto
@@ -38,7 +40,6 @@ O **BCL Futsal** é um site desenvolvido para fortalecer a presença digital de 
 
 O projeto simula um cenário real de produto, aplicando conceitos de **UI/UX, responsividade e organização de conteúdo**.
 
----
 
 ## 🛠️ Stack
 
