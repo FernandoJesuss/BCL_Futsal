@@ -2,9 +2,9 @@
 
 # ⚽ BCL Futsal
 
-### Plataforma digital para apresentação de time e identidade esportiva
+### Plataforma digital desenvolvida para um time de futsal
 
-Aplicação moderna desenvolvida com foco em **UI/UX, responsividade e experiência visual**.
+Aplicação web focada em **presença digital, identidade visual e experiência do usuário**.
 
 <br/>
 
@@ -26,7 +26,9 @@ Aplicação moderna desenvolvida com foco em **UI/UX, responsividade e experiên
 
 ## 🚀 Sobre o Projeto
 
-O **BCL Futsal** é uma aplicação web desenvolvida para representar digitalmente um time de futsal, com foco em organização visual, identidade e experiência do usuário.
+O **BCL Futsal** é um site desenvolvido para fortalecer a presença digital de um time de futsal, apresentando sua identidade, conteúdo e estrutura de forma moderna e organizada.
+
+O projeto simula um cenário real de produto, aplicando conceitos de **UI/UX, responsividade e organização de conteúdo**.
 
 ---
 
@@ -41,10 +43,10 @@ O **BCL Futsal** é uma aplicação web desenvolvida para representar digitalmen
 
 ## ✨ Destaques
 
-- Interface moderna e responsiva  
-- Identidade visual esportiva  
-- Componentização com React  
-- Estilização rápida e escalável com Tailwind  
+- Interface moderna com foco esportivo  
+- Layout responsivo para múltiplos dispositivos  
+- Identidade visual alinhada ao time  
+- Estrutura componentizada com React  
 
 ---
 
